@@ -1,39 +1,45 @@
-1 import { Component } from '@angular/core';
+<body>
 
-2 //IMPORT STUDENT MODEL CLASS
+<!--Fill code for heading-->
 
-3
+<table>
 
-4 @Component({
+<tr>
 
-5
+<!--Fill code for name-->
 
-selector: 'app-root',
+</tr>
 
-6 templateUrl: './app.component.html',
+<tr>
 
-7
+<!--Fill code for Number of Tickets-->
 
-styleUrls: ['./app.component.css']
+</tr>
 
-8 })
+<tr>
 
-9
+<!--Fill code for Departure City-->
 
-export class AppComponent {
+</tr>
 
-10
+I
 
-11
+<tr>
 
-student:any; //Assign the Student details to the variable student which is type Student[].
+<!--Fill code for Destination City-->
 
-12
+</tr>
 
-title = 'Student-db';
+<tr>
 
-13
+<!--Fill code for Flight Class Type-->
 
-}
+<!--Fill code for dynamic dropdown-->
 
-14:
+</tr>
+
+</table>
+
+<!--Fill you code here for button and display status-->
+
+</body>
