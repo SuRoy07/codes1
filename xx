@@ -1,43 +1,17 @@
-body>
+import { Component } from '@angular/core';
 
-<!--Fill code for heading-->
+//IMPORT STUDENT MODEL CLASS
 
-<table>
+@Component({
 
-<tr>
+})
 
-<!--Fill code for name-->
+selector: 'app-root',
 
-</tr>
+templateUrl: './app.component.html', styleurls: ['./app.component.css']
 
-<tr>
+export class AppComponent {
 
-<!--Fill code for Number of Tickets-->
+student: any; //Assign the Student details to the variable student which is type
 
-</tr>
-
-<tr>
-
-<!--Fill code for Departure City-->
-
-</tr>
-
-<tr>
-
-<!--Fill code for Destination City-->
-
-</tr>
-
-<tr>
-
-<!--Fill code for Flight Class Type-->
-
-<!--Fill code for dynamic dropdown-->
-
-</tr>
-
-</table>
-
-<!--Fill you code here for button and display status-
-
-</body>
+title 'Student-db';
