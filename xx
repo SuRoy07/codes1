@@ -1,63 +1,39 @@
-app.component.html
+1 import { Component } from '@angular/core';
 
-app.component.ts
+2 //IMPORT STUDENT MODEL CLASS
 
-|
+3
 
-app.module.ts
-
-|
-
-St
-
-%
-
-1
-
-<!-- Create a table and Show the student details using ngFor Directive -->
-
-2
-
-13
-
-<html>
-
-4 <body>
+4 @Component({
 
 5
 
-<table class="table table-striped table-bordered">
+selector: 'app-root',
 
-6
+6 templateUrl: './app.component.html',
 
 7
 
-8
+styleUrls: ['./app.component.css']
 
-<thead class="bg-primary bg-opacity-50">
+8 })
 
 9
 
-<!-- Implement Your Code Here for thead-->
+export class AppComponent {
 
 10
 
-</thead>
-
 11
 
-<tbody>
-
-<!-- Implement Your Code Here for tbody-->
+student:any; //Assign the Student details to the variable student which is type Student[].
 
 12
 
+title = 'Student-db';
+
 13
 
-</tbody>
+}
 
-14 </table>
-
-15 </body>
-
-16 </html>
+14:
