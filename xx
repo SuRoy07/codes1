@@ -1,45 +1,27 @@
-<body>
+import { Component } from '@angular/core';
 
-<!--Fill code for heading-->
+@Component({
 
-<table>
+selector: 'app-root',
 
-<tr>
+templateUrl: './app.component.html', styleUrls: ['./app.component.css'] })
 
-<!--Fill code for name-->
+export class AppComponent {
 
-</tr>
+title='Flight Reservation Form';
 
-<tr>
+status ="";
 
-<!--Fill code for Number of Tickets-->
+flightClassList:FlightClass[] = [ //Fill code here ]; I
 
-</tr>
+showStatus() {
 
-<tr>
+}
 
-<!--Fill code for Departure City-->
+export class FlightClass {
 
-</tr>
+name: string;
 
-I
+constructor (name:string) {
 
-<tr>
-
-<!--Fill code for Destination City-->
-
-</tr>
-
-<tr>
-
-<!--Fill code for Flight Class Type-->
-
-<!--Fill code for dynamic dropdown-->
-
-</tr>
-
-</table>
-
-<!--Fill you code here for button and display status-->
-
-</body>
+this.name name;
