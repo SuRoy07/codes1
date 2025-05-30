@@ -1,9 +1,33 @@
-body style="background-color: rgb(138, 138, 130);">
+import { VariableAst } from '@angular/compiler';
 
-<form>
+app/home/home.comp
 
-<!--Design the page as per the requirement-->
+}
 
-</form>
+</b
 
-</body>
+import { Component, OnInit } from '@angular/core';
+
+import {Router} from '@angular/router';
+
+import { ActivatedRoute } from '@angular/router';
+
+@Component({
+
+selector: 'app-home',
+
+templateUrl: './home.component.html',
+
+styleUrls: ['./home.component.css']
+
+})
+
+export class HomeComponent implements OnInit {
+
+constructor (private router: Router, private Activatedroute: ActivatedRc
+
+ngonInit(): void {
+
+// fill the code
+
+}
