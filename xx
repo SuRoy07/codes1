@@ -1,17 +1,7 @@
-import { Component } from '@angular/core';
+<body style="background-color: #52BE80;">
 
-//IMPORT STUDENT MODEL CLASS
+<!--Design the page as per the requirement-->
 
-@Component({
+</nav>
 
-})
-
-selector: 'app-root',
-
-templateUrl: './app.component.html', styleurls: ['./app.component.css']
-
-export class AppComponent {
-
-student: any; //Assign the Student details to the variable student which is type
-
-title 'Student-db';
+</body>
