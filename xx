@@ -1,45 +1,9 @@
-import { NgModule } from '@angular/core';
+body style="background-color: rgb(138, 138, 130);">
 
-import { BrowserModule } from '@angular/platform-browser'
+<form>
 
-import { AppRoutingModule } from './app-routing.module';
+<!--Design the page as per the requirement-->
 
-import { AppComponent } from './app.component';
+</form>
 
--import { HomeComponent } from './home/home.component';
-
-import { Routes, RouterModule } from '@angular/router';
-
--
-
-import {FormsModule} from '@angular/forms';
-
-import { ReactiveForms Module } from '@angular/forms';
-
-export const routes: Routes = [
-
-// fill the code
-
-];
-
-@NgModule({
-
-declarations: [
-
-AppComponent,
-
-HomeComponent
-
-],
-
-imports: [
-
-BrowserModule,
-
-AppRoutingModule, RouterModule.forRoot(routes)
-
-],
-providers: [],
-bootstrap: [AppComponent]
-})
-export class AppModule{}
+</body>
